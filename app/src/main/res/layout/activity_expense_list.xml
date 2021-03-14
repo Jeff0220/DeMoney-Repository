@@ -11,7 +11,7 @@
         android:id="@+id/scrollView3"
         android:layout_width="331dp"
         android:layout_height="360dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,107 @@
             android:paddingTop="0dp"
             android:paddingEnd="0dp"
             android:paddingRight="0dp"
-            android:paddingBottom="0dp"/>
+            android:paddingBottom="0dp">
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#EDEDED"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Îmbrăcăminte"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Mâncare"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#EDEDED"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Cadouri"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Entertainment"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#EDEDED"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Călătorii"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Sport"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button16"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#EDEDED"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Shopping"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Combustibil"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/button18"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#EDEDED"
+                android:fontFamily="@font/roboto_slab"
+                android:paddingHorizontal="30dp"
+                android:text="Servicii"
+                android:textAlignment="textStart" />
+        </LinearLayout>
     </ScrollView>
 
     <ImageView
@@ -71,7 +171,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pe ce ai cheltuit bani?"
-        android:textSize="32sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/oval6" />
@@ -80,13 +180,103 @@
         android:id="@+id/button9"
         android:layout_width="120dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="25dp"
         android:background="#8ED959"
         android:backgroundTint="#8ED959"
-        android:text="@android:string/ok"
+        android:text="Back"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/dumbell" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/gift" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/cart" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/shirt" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/fuel" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/controller" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/food" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3"
+        app:srcCompat="@drawable/shpotify" />
 </androidx.constraintlayout.widget.ConstraintLayout>

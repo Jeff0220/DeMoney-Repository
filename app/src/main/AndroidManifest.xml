@@ -9,18 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".ExpenseList">
+        <activity android:name=".IncomeList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ExpenseAdd">
+        <activity android:name=".ExpenseList">
 
         </activity>
-        <activity android:name=".IncomeAdd"></activity>
-        <activity android:name=".CourseQ"></activity>
+        <activity android:name=".ExpenseAdd"></activity>
+        <activity android:name=".IncomeAdd" />
+        <activity android:name=".CourseQ" />
         <activity android:name=".ChoicesActivity" />
         <activity android:name=".MainActivity" />
 
